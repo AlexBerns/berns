@@ -123,14 +123,9 @@
       var li = el("li");
       var a = el("a", null, lk.label);
       if (lk.emailUser) {
-        // show "user [at] domain" (no "@"); build the mailto only on click, so
-        // the real address never sits in the page source or the DOM at rest
-        a.textContent = lk.emailUser + " [at] " + lk.emailDomain;
-        a.href = "#";
-        a.addEventListener("click", function (e) {
-          e.preventDefault();
-          window.location.href = "mailto:" + lk.emailUser + String.fromCharCode(64) + lk.emailDomain;
-        });
+        // assemble the mailto at runtime (String.fromCharCode(64) === "@") so
+        // the full address never appears verbatim in the static source
+        a.href = "mailto:" + lk.emailUser + String.fromCharCode(64) + lk.emailDomain;
       } else {
         a.href = lk.url;
         if (lk.url.indexOf("http") === 0) { a.target = "_blank"; a.rel = "noopener"; }
