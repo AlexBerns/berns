@@ -29,13 +29,15 @@ const SITE = {
   meta: {
     name: "Alex Berns",
     photo: "assets/img/alex-berns.jpg",
-    sectionOrder: ["about", "experience", "education"],
+    sectionOrder: ["about", "experience", "education", "publications"],
     links: [
       { label: "GitHub",   url: "https://github.com/AlexBerns" },
       { label: "LinkedIn", url: "https://www.linkedin.com/in/alex-b-602a84178/" },
-      { label: "Email",    url: "mailto:alexander.berns@sbintuitions.co.jp" },
+      // email split into parts; app.js assembles the mailto at runtime so the
+      // full address (with @) never appears verbatim in the static source
+      { label: "Email",    emailUser: "Berns.Alexander", emailDomain: "gmx.net" },
       { label: "CV",       url: "#" },        // TODO: link to your CV (PDF/URL)
-      { label: "Bio",      url: "#about" },   // jumps to the About section
+      { label: "Bio",      url: "bio.html" }, // opens the terminal-style bio page
     ],
   },
 
@@ -90,6 +92,13 @@ const SITE = {
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "Cambridge A-Levels", place: "New Zealand" },
         ],
       },
+      publications: {
+        heading: "Publications",
+        items: [
+          { period: "«year»", org: "«Paper title — AI Safety»", role: "«International conference»" },
+          { period: "«year»", org: "«Paper title — Federated Learning»", role: "«International conference»" },
+        ],
+      },
       footer: { left: "© 2026 Alex Berns" },
       controls: { theme: "Toggle theme" },
     },
@@ -136,6 +145,13 @@ const SITE = {
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "Cambridge A-Levels", place: "Neuseeland" },
         ],
       },
+      publications: {
+        heading: "Publikationen",
+        items: [
+          { period: "«Jahr»", org: "«Titel — AI Safety»", role: "«Internationale Konferenz»" },
+          { period: "«Jahr»", org: "«Titel — föderiertes Lernen»", role: "«Internationale Konferenz»" },
+        ],
+      },
       footer: { left: "© 2026 Alex Berns" },
       controls: { theme: "Design wechseln" },
     },
@@ -177,6 +193,13 @@ const SITE = {
           },
           { period: "2019 – 2024", org: "Hochschule Trier", role: "電機與資訊工程", place: "德國" },
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "劍橋 A-Level", place: "紐西蘭" },
+        ],
+      },
+      publications: {
+        heading: "著作",
+        items: [
+          { period: "«年份»", org: "«標題 — AI 安全»", role: "«國際會議»" },
+          { period: "«年份»", org: "«標題 — 聯邦學習»", role: "«國際會議»" },
         ],
       },
       footer: { left: "© 2026 Alex Berns" },
@@ -221,6 +244,13 @@ const SITE = {
           },
           { period: "2019 – 2024", org: "Hochschule Trier", role: "電気情報工学", place: "ドイツ" },
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "ケンブリッジ A-Level", place: "ニュージーランド" },
+        ],
+      },
+      publications: {
+        heading: "論文",
+        items: [
+          { period: "«年»", org: "«タイトル — AIの安全性»", role: "«国際会議»" },
+          { period: "«年»", org: "«タイトル — 連合学習»", role: "«国際会議»" },
         ],
       },
       footer: { left: "© 2026 Alex Berns" },

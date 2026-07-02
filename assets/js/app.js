@@ -8,7 +8,7 @@
   var LS_LANG = "ab.lang";
   var LS_THEME = "ab.theme";
   var DEFAULT_LANG = SITE.langs[0].code; // English
-  var DEFAULT_THEME = "light";
+  var DEFAULT_THEME = "dark";
 
   /* ---- small DOM helpers ------------------------------------------------ */
   function el(tag, cls, text) {
@@ -122,8 +122,13 @@
     SITE.meta.links.forEach(function (lk) {
       var li = el("li");
       var a = el("a", null, lk.label);
-      a.href = lk.url;
-      if (lk.url.indexOf("http") === 0) { a.target = "_blank"; a.rel = "noopener"; }
+      if (lk.emailUser) {
+        // assemble at runtime (String.fromCharCode(64) === "@") to foil scrapers
+        a.href = "mailto:" + lk.emailUser + String.fromCharCode(64) + lk.emailDomain;
+      } else {
+        a.href = lk.url;
+        if (lk.url.indexOf("http") === 0) { a.target = "_blank"; a.rel = "noopener"; }
+      }
       li.appendChild(a);
       links.appendChild(li);
     });
