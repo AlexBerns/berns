@@ -95,8 +95,8 @@ const SITE = {
       publications: {
         heading: "Publications",
         items: [
-          { period: "«year»", org: "«Paper title — AI Safety»", role: "«International conference»" },
-          { period: "«year»", org: "«Paper title — Federated Learning»", role: "«International conference»" },
+          { period: "2027", org: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking", role: "AAAI 2027, Montréal, Canada" },
+          { period: "2025", org: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models", role: "APSIPA ASC 2025, Singapore" },
         ],
       },
       footer: { left: "© 2026 Alex Berns" },
@@ -148,8 +148,8 @@ const SITE = {
       publications: {
         heading: "Publikationen",
         items: [
-          { period: "«Jahr»", org: "«Titel — AI Safety»", role: "«Internationale Konferenz»" },
-          { period: "«Jahr»", org: "«Titel — föderiertes Lernen»", role: "«Internationale Konferenz»" },
+          { period: "2027", org: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking", role: "AAAI 2027, Montréal, Kanada" },
+          { period: "2025", org: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models", role: "APSIPA ASC 2025, Singapur" },
         ],
       },
       footer: { left: "© 2026 Alex Berns" },
@@ -198,8 +198,8 @@ const SITE = {
       publications: {
         heading: "著作",
         items: [
-          { period: "«年份»", org: "«標題 — AI 安全»", role: "«國際會議»" },
-          { period: "«年份»", org: "«標題 — 聯邦學習»", role: "«國際會議»" },
+          { period: "2027", org: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking", role: "AAAI 2027，蒙特婁，加拿大" },
+          { period: "2025", org: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models", role: "APSIPA ASC 2025，新加坡" },
         ],
       },
       footer: { left: "© 2026 Alex Berns" },
@@ -249,8 +249,8 @@ const SITE = {
       publications: {
         heading: "論文",
         items: [
-          { period: "«年»", org: "«タイトル — AIの安全性»", role: "«国際会議»" },
-          { period: "«年»", org: "«タイトル — 連合学習»", role: "«国際会議»" },
+          { period: "2027", org: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking", role: "AAAI 2027、モントリオール、カナダ" },
+          { period: "2025", org: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models", role: "APSIPA ASC 2025、シンガポール" },
         ],
       },
       footer: { left: "© 2026 Alex Berns" },
