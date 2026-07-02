@@ -33,8 +33,8 @@ const SITE = {
     links: [
       { label: "GitHub",   url: "https://github.com/AlexBerns" },
       { label: "LinkedIn", url: "https://www.linkedin.com/in/alex-b-602a84178/" },
-      // email split into parts; app.js assembles the mailto at runtime so the
-      // full address (with @) never appears verbatim in the static source
+      // shown as "Berns.Alexander [at] gmx.net"; app.js builds the mailto only
+      // on click, so the "@" address never appears in the source or the DOM
       { label: "Email",    emailUser: "Berns.Alexander", emailDomain: "gmx.net" },
       { label: "CV",       url: "#" },        // TODO: link to your CV (PDF/URL)
       { label: "Bio",      url: "bio.html" }, // opens the terminal-style bio page
