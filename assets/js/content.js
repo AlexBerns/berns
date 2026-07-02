@@ -11,7 +11,7 @@
    Entries render two-column: period (left) · org in bold + detail (right).
 
    Institution / brand names (Tohoku University, SB Intuitions, SoftBank
-   Group, Feluwa Pumpen GmbH, Trier University of Applied Sciences, Westlake
+   Group, Feluwa Pumpen GmbH, Hochschule Trier, Westlake
    Boys High School) are kept in Latin across all languages.
 
    TODO:
@@ -76,7 +76,7 @@ const SITE = {
         items: [
           { period: "2026 – Present", org: "SB Intuitions — SoftBank", role: "Research Intern, Responsible AI Team" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "Cooperative Study — Electrical Engineering" },
-          { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "Mathematics Teaching Assistant" },
+          { period: "2021 – 2022", org: "Hochschule Trier", role: "Mathematics Teaching Assistant" },
         ],
       },
       education: {
@@ -86,7 +86,7 @@ const SITE = {
             period: "2025 – Present", org: "Tohoku University",
             role: "Graduate School of Information Science", place: "Japan",
           },
-          { period: "2019 – 2024", org: "Trier University of Applied Sciences", role: "Electrical & Information Engineering", place: "Germany" },
+          { period: "2019 – 2024", org: "Hochschule Trier", role: "Electrical & Information Engineering", place: "Germany" },
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "Cambridge A-Levels", place: "New Zealand" },
         ],
       },
@@ -122,7 +122,7 @@ const SITE = {
         items: [
           { period: "2026 – heute", org: "SB Intuitions — SoftBank", role: "Forschungspraktikant, Responsible-AI-Team" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "Duales Studium — Elektrotechnik" },
-          { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "Mathematik-Tutor" },
+          { period: "2021 – 2022", org: "Hochschule Trier", role: "Mathematik-Tutor" },
         ],
       },
       education: {
@@ -132,7 +132,7 @@ const SITE = {
             period: "2025 – heute", org: "Tohoku University",
             role: "Graduate School of Information Science", place: "Japan",
           },
-          { period: "2019 – 2024", org: "Trier University of Applied Sciences", role: "Elektro- und Informationstechnik", place: "Deutschland" },
+          { period: "2019 – 2024", org: "Hochschule Trier", role: "Elektro- und Informationstechnik", place: "Deutschland" },
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "Cambridge A-Levels", place: "Neuseeland" },
         ],
       },
@@ -165,7 +165,7 @@ const SITE = {
         items: [
           { period: "2026 – 至今", org: "SB Intuitions — SoftBank", role: "研究實習生，Responsible AI 團隊" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "建教合作 — 電機工程" },
-          { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "數學助教" },
+          { period: "2021 – 2022", org: "Hochschule Trier", role: "數學助教" },
         ],
       },
       education: {
@@ -175,7 +175,7 @@ const SITE = {
             period: "2025 – 至今", org: "東北大學",
             role: "資訊科學研究科", place: "日本",
           },
-          { period: "2019 – 2024", org: "Trier University of Applied Sciences", role: "電機與資訊工程", place: "德國" },
+          { period: "2019 – 2024", org: "Hochschule Trier", role: "電機與資訊工程", place: "德國" },
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "劍橋 A-Level", place: "紐西蘭" },
         ],
       },
@@ -209,7 +209,7 @@ const SITE = {
         items: [
           { period: "2026 – 現在", org: "SB Intuitions — SoftBank", role: "研究インターン、Responsible AI チーム" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "デュアルスタディ（電気工学）" },
-          { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "数学ティーチングアシスタント" },
+          { period: "2021 – 2022", org: "Hochschule Trier", role: "数学ティーチングアシスタント" },
         ],
       },
       education: {
@@ -219,7 +219,7 @@ const SITE = {
             period: "2025 – 現在", org: "東北大学",
             role: "情報科学研究科", place: "日本",
           },
-          { period: "2019 – 2024", org: "Trier University of Applied Sciences", role: "電気情報工学", place: "ドイツ" },
+          { period: "2019 – 2024", org: "Hochschule Trier", role: "電気情報工学", place: "ドイツ" },
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "ケンブリッジ A-Level", place: "ニュージーランド" },
         ],
       },
