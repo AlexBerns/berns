@@ -45,7 +45,7 @@ const SITE = {
     publications: [
       {
         title: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking",
-        authors: ["Berns"], // TODO: add the AAAI 2027 co-authors (surnames)
+        authors: ["Berns", "Huy", "Pride", "Wataoka"],
         me: "Berns",
         venue: "AAAI 2027",
       },
