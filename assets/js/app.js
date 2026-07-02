@@ -88,12 +88,31 @@
     });
   }
 
-  function renderSkills(sec, groups) {
-    groups.forEach(function (g) {
-      var line = el("div", "skill-line");
-      line.appendChild(el("span", "skill-key", g.name));
-      line.appendChild(el("span", "skill-val", g.items.join(" · ")));
-      sec.appendChild(line);
+  // Publications: title (linked if url) + author list (own name bold) — venue
+  function renderPublications(sec, items) {
+    items.forEach(function (it) {
+      var pub = el("div", "pub");
+
+      var title;
+      if (it.url) {
+        title = el("a", "pub-title", it.title);
+        title.href = it.url;
+        if (it.url.indexOf("http") === 0) { title.target = "_blank"; title.rel = "noopener"; }
+      } else {
+        title = el("span", "pub-title", it.title);
+      }
+      pub.appendChild(title);
+
+      var meta = el("p", "pub-meta");
+      (it.authors || []).forEach(function (name, i) {
+        if (i > 0) meta.appendChild(document.createTextNode(", "));
+        if (name === it.me) meta.appendChild(el("strong", null, name));
+        else meta.appendChild(document.createTextNode(name));
+      });
+      if (it.venue) meta.appendChild(document.createTextNode(" — " + it.venue));
+      pub.appendChild(meta);
+
+      sec.appendChild(pub);
     });
   }
 
@@ -143,8 +162,8 @@
       var sec = sectionShell(key, data);
 
       if (data.body) renderProse(sec, data.body);
-      if (data.items) renderEntries(sec, data.items);
-      if (data.groups) renderSkills(sec, data.groups);
+      if (key === "publications") renderPublications(sec, SITE.meta.publications);
+      else if (data.items) renderEntries(sec, data.items);
 
       content.appendChild(sec);
     });

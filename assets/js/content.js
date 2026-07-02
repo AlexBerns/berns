@@ -39,6 +39,24 @@ const SITE = {
       { label: "CV",       url: "#" },        // TODO: link to your CV (PDF/URL)
       { label: "Bio",      url: "bio.html" }, // opens the terminal-style bio page
     ],
+
+    // Publications (shared across languages — titles/authors/venues stay English).
+    // `me` is bolded in the author list; `url` (optional) makes the title a link.
+    publications: [
+      {
+        title: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking",
+        authors: ["Alexander Berns"], // TODO: add the AAAI 2027 co-authors
+        me: "Alexander Berns",
+        venue: "AAAI 2027",
+      },
+      {
+        title: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models",
+        authors: ["Alexander Berns", "Reon Akai", "Minoru Kuribayashi"],
+        me: "Alexander Berns",
+        venue: "APSIPA ASC 2025",
+        url: "APSIPA2025_berns.pdf",
+      },
+    ],
   },
 
   // Flag switcher: label = accessible name, flag = SVG icon. First = default.
@@ -92,13 +110,7 @@ const SITE = {
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "Cambridge A-Levels", place: "New Zealand" },
         ],
       },
-      publications: {
-        heading: "Publications",
-        items: [
-          { period: "2027", org: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking", role: "AAAI 2027, Montréal, Canada" },
-          { period: "2025", org: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models", role: "APSIPA ASC 2025, Singapore" },
-        ],
-      },
+      publications: { heading: "Publications" },
       footer: { left: "© 2026 Alex Berns" },
       controls: { theme: "Toggle theme" },
     },
@@ -145,13 +157,7 @@ const SITE = {
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "Cambridge A-Levels", place: "Neuseeland" },
         ],
       },
-      publications: {
-        heading: "Publikationen",
-        items: [
-          { period: "2027", org: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking", role: "AAAI 2027, Montréal, Kanada" },
-          { period: "2025", org: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models", role: "APSIPA ASC 2025, Singapur" },
-        ],
-      },
+      publications: { heading: "Publikationen" },
       footer: { left: "© 2026 Alex Berns" },
       controls: { theme: "Design wechseln" },
     },
@@ -195,13 +201,7 @@ const SITE = {
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "劍橋 A-Level", place: "紐西蘭" },
         ],
       },
-      publications: {
-        heading: "著作",
-        items: [
-          { period: "2027", org: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking", role: "AAAI 2027，蒙特婁，加拿大" },
-          { period: "2025", org: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models", role: "APSIPA ASC 2025，新加坡" },
-        ],
-      },
+      publications: { heading: "著作" },
       footer: { left: "© 2026 Alex Berns" },
       controls: { theme: "切換主題" },
     },
@@ -246,13 +246,7 @@ const SITE = {
           { period: "2015 – 2019", org: "Westlake Boys High School", role: "ケンブリッジ A-Level", place: "ニュージーランド" },
         ],
       },
-      publications: {
-        heading: "論文",
-        items: [
-          { period: "2027", org: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking", role: "AAAI 2027、モントリオール、カナダ" },
-          { period: "2025", org: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models", role: "APSIPA ASC 2025、シンガポール" },
-        ],
-      },
+      publications: { heading: "論文" },
       footer: { left: "© 2026 Alex Berns" },
       controls: { theme: "テーマ切替" },
     },
