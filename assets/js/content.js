@@ -45,14 +45,14 @@ const SITE = {
     publications: [
       {
         title: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking",
-        authors: ["Alexander Berns"], // TODO: add the AAAI 2027 co-authors
-        me: "Alexander Berns",
+        authors: ["Berns"], // TODO: add the AAAI 2027 co-authors (surnames)
+        me: "Berns",
         venue: "AAAI 2027",
       },
       {
         title: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models",
-        authors: ["Alexander Berns", "Reon Akai", "Minoru Kuribayashi"],
-        me: "Alexander Berns",
+        authors: ["Berns", "Akai", "Kuribayashi"],
+        me: "Berns",
         venue: "APSIPA ASC 2025",
         url: "APSIPA2025_berns.pdf",
       },
