@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alex Berns</title>
+  <meta name="description" content="Personal website of Alex Berns." />
+  <meta name="author" content="Alex Berns" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Alex Berns" />
+  <meta property="og:description" content="Personal website of Alex Berns." />
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&amp;family=Noto+Sans+JP:wght@400;700&amp;family=Noto+Sans+TC:wght@400;700&amp;display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <div class="header-row">
+        <div class="hero">
+          <img class="avatar" id="avatar" src="assets/img/alex-berns.jpg" alt="Alex Berns" />
+          <div class="hero-text">
+            <h1 class="name" id="name">Alex Berns</h1>
+            <div class="affil" id="affil"></div>
+            <ul class="links" id="links"></ul>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+            <svg class="i-moon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor"/>
+            </svg>
+            <svg class="i-sun" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"
+                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <circle cx="12" cy="12" r="4.2"/>
+              <line x1="12" y1="1.5" x2="12" y2="4"/>
+              <line x1="12" y1="20" x2="12" y2="22.5"/>
+              <line x1="1.5" y1="12" x2="4" y2="12"/>
+              <line x1="20" y1="12" x2="22.5" y2="12"/>
+              <line x1="4.4" y1="4.4" x2="6.2" y2="6.2"/>
+              <line x1="17.8" y1="17.8" x2="19.6" y2="19.6"/>
+              <line x1="4.4" y1="19.6" x2="6.2" y2="17.8"/>
+              <line x1="17.8" y1="6.2" x2="19.6" y2="4.4"/>
+            </svg>
+          </button>
+          <div class="lang-switch" id="langSwitch" role="group" aria-label="Language"></div>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <noscript>
+        <p>This site needs JavaScript to switch languages and render content.</p>
+      </noscript>
+    </main>
+
+    <footer class="site-footer" id="footer"></footer>
+  </div>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
