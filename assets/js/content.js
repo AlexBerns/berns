@@ -38,7 +38,7 @@ const SITE = {
       { label: "Email",    emailUser: "Berns.Alexander", emailDomain: "gmx.net" },
       // CV is a hover/tap menu: choose language. English CV is coming soon.
       { label: "CV", menu: [
-        { label: "English", soon: true },              // TODO: link English CV (LaTeX → PDF)
+        { label: "English", url: "CV_berns_en_2026.pdf" },
         { label: "日本語",  url: "CV_berns_jp_2026.pdf" },
       ] },
       { label: "Bio",      url: "bio.html" }, // opens the terminal-style bio page

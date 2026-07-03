@@ -9,3 +9,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+# LaTeX build artifacts (keep the .tex source, not the intermediates)
+*.aux
+*.out
+*.synctex.gz
+cv/*.pdf
