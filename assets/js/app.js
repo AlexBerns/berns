@@ -160,7 +160,16 @@
           }
         });
         menu.appendChild(list);
-        trigger.addEventListener("click", function () { menu.classList.toggle("open"); });
+        trigger.setAttribute("aria-expanded", "false");
+        trigger.addEventListener("click", function () {
+          var open = menu.classList.toggle("open");
+          trigger.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+        // choosing a version opens the file (new tab) and closes the menu
+        list.addEventListener("click", function () {
+          menu.classList.remove("open");
+          trigger.setAttribute("aria-expanded", "false");
+        });
         li.appendChild(menu);
         links.appendChild(li);
         return;
@@ -241,6 +250,19 @@
       save(LS_THEME, next);
       render(currentLang); // refresh toggle label
     });
+
+    // Close any open dropdown when clicking outside it (browser only)
+    if (document.addEventListener && document.querySelectorAll) {
+      document.addEventListener("click", function (e) {
+        Array.prototype.forEach.call(document.querySelectorAll(".cv-menu.open"), function (m) {
+          if (!m.contains(e.target)) {
+            m.classList.remove("open");
+            var trg = m.querySelector(".cv-trigger");
+            if (trg) trg.setAttribute("aria-expanded", "false");
+          }
+        });
+      });
+    }
   }
 
   /* ---- boot ------------------------------------------------------------- */

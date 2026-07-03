@@ -196,8 +196,6 @@ body {
   box-shadow: 0 10px 28px var(--shadow);
   z-index: 20;
 }
-.cv-menu:hover .cv-list,
-.cv-menu:focus-within .cv-list,
 .cv-menu.open .cv-list { display: flex; }
 .cv-item {
   display: block;
