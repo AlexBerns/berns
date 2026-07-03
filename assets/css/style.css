@@ -168,6 +168,51 @@ body {
 }
 .links a:hover { border-bottom-color: var(--accent); }
 
+/* CV dropdown (hover/tap to choose language) */
+.cv-menu { position: relative; display: inline-block; }
+.cv-trigger {
+  font: inherit;
+  font-weight: 700;
+  color: var(--accent);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.cv-trigger::after { content: " ▾"; font-size: 0.78em; }
+.cv-list {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  display: none;
+  flex-direction: column;
+  min-width: 128px;
+  padding: 6px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 10px 28px var(--shadow);
+  z-index: 20;
+}
+.cv-menu:hover .cv-list,
+.cv-menu:focus-within .cv-list,
+.cv-menu.open .cv-list { display: flex; }
+.cv-item {
+  display: block;
+  padding: 7px 12px;
+  border-radius: 7px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--fg);
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: left;
+}
+a.cv-item:hover { background: var(--accent-soft); color: var(--accent); }
+.cv-soon { color: var(--muted); font-weight: 400; cursor: default; }
+
 /* ---- sections ----------------------------------------------------------- */
 .section { margin-bottom: 22px; scroll-margin-top: 20px; }
 

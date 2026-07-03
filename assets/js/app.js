@@ -140,6 +140,32 @@
     clear(links);
     SITE.meta.links.forEach(function (lk) {
       var li = el("li");
+
+      // Dropdown menu (e.g. CV → choose language). Opens on hover/focus (CSS)
+      // and on tap (JS toggles .open, for touch devices).
+      if (lk.menu) {
+        var menu = el("span", "cv-menu");
+        var trigger = el("button", "cv-trigger", lk.label);
+        trigger.type = "button";
+        trigger.setAttribute("aria-haspopup", "true");
+        menu.appendChild(trigger);
+        var list = el("div", "cv-list");
+        lk.menu.forEach(function (m) {
+          if (m.url) {
+            var mi = el("a", "cv-item", m.label);
+            mi.href = m.url; mi.target = "_blank"; mi.rel = "noopener";
+            list.appendChild(mi);
+          } else {
+            list.appendChild(el("span", "cv-item cv-soon", m.label + " (soon)"));
+          }
+        });
+        menu.appendChild(list);
+        trigger.addEventListener("click", function () { menu.classList.toggle("open"); });
+        li.appendChild(menu);
+        links.appendChild(li);
+        return;
+      }
+
       var a = el("a", null, lk.label);
       if (lk.emailUser) {
         // assemble the mailto at runtime (String.fromCharCode(64) === "@") so
