@@ -129,7 +129,7 @@ const SITE = {
         heading: "Über mich",
         body: [
           [
-            "Ich forsche zu AI Safety an der Tohoku University (Japan) und bei " +
+            "Ich forsche zu KI-Sicherheit an der Tohoku Universität (Japan) und bei " +
             "SB Intuitions, SoftBank, betreut von ",
             { t: "Minoru Kuribayashi", href: MENTOR.kuribayashi },
             " und ",
@@ -139,7 +139,7 @@ const SITE = {
           "Zuvor arbeitete ich an föderiertem Lernen und maschinellem Lernen zur " +
           "frühzeitigen Anomalieerkennung in Industriepumpen. Aktuell arbeite ich an " +
           "der Verringerung des Abschwächens bei der maschinellen Übersetzung " +
-          "schädlicher Texte für Safety-Benchmarks.",
+          "schädlicher Texte für Sicherheits-Benchmarks.",
         ],
       },
       experience: {
