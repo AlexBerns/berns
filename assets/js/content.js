@@ -48,12 +48,12 @@ const SITE = {
     // `me` is bolded in the author list; `url` (optional) makes the title a link.
     publications: [
       {
-        title: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking",
-        authors: ["Berns", "Huy", "Pride", "Wataoka"],
+        // Manuscript is under anonymous review — the real title, author list
+        // and venue are withheld until acceptance so the submission cannot be
+        // de-anonymized by searching this page. Restore them here afterwards.
+        title: "Preprint",
+        authors: [],
         me: "Berns",
-        venue: "Preprint",
-        // PDF intentionally not linked: the manuscript is under anonymous
-        // review. Add `url` back once the paper is accepted / de-anonymized.
       },
       {
         title: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models",
