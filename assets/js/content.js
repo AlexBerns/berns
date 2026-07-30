@@ -51,8 +51,9 @@ const SITE = {
         title: "Toxicity Lost in Translation: A Toxicity-Preserving Framework for Cross-Lingual LLM Safety Benchmarking",
         authors: ["Berns", "Huy", "Pride", "Wataoka"],
         me: "Berns",
-        venue: "Under review",
-        url: "TPMT_berns_2026.pdf",
+        venue: "Preprint",
+        // PDF intentionally not linked: the manuscript is under anonymous
+        // review. Add `url` back once the paper is accepted / de-anonymized.
       },
       {
         title: "Layer-Wise Weight Statistics for Node Classification and Defense of Federated Large Language Models",
