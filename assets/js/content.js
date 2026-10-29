@@ -92,10 +92,9 @@ const SITE = {
             ".",
           ],
           "Previously, I worked on Federated Learning and Machine Learning for " +
-          "early anomaly detection in industrial pumps. Recently, I am working on " +
-          "the mitigation of softening in machine translation of harmful text for " +
-          "safety benchmarks.",
-          "From April 2027, I will join ESMC / TSMC Fab 24 as a CMP Equipment Engineer.",
+          "early anomaly detection in industrial pumps.",
+          "From April 2027, I will be going back into hardware as a CMP Equipment " +
+          "Engineer in the semiconductor industry at ESMC / TSMC (Fab 24).",
         ],
       },
       experience: {
@@ -141,10 +140,9 @@ const SITE = {
             ".",
           ],
           "Zuvor arbeitete ich an föderiertem Lernen und maschinellem Lernen zur " +
-          "frühzeitigen Anomalieerkennung in Industriepumpen. Aktuell arbeite ich an " +
-          "der Verringerung des Abschwächens bei der maschinellen Übersetzung " +
-          "schädlicher Texte für Sicherheits-Benchmarks.",
-          "Ab April 2027 werde ich als CMP-Anlageningenieur bei ESMC / TSMC Fab 24 arbeiten.",
+          "frühzeitigen Anomalieerkennung in Industriepumpen.",
+          "Ab April 2027 kehre ich als CMP-Anlageningenieur in der Halbleiterindustrie " +
+          "bei ESMC / TSMC (Fab 24) in die Hardware zurück.",
         ],
       },
       experience: {
@@ -188,9 +186,8 @@ const SITE = {
             { t: "綿岡晃輝", href: MENTOR.wataoka },
             "。",
           ],
-          "先前我從事聯邦學習與機器學習，應用於工業泵浦的早期異常偵測；" +
-          "近期則致力於減緩機器翻譯中有害文本的軟化，以用於安全基準。",
-          "自2027年4月起，我將加入 ESMC / TSMC Fab 24，擔任 CMP 設備工程師。",
+          "先前我從事聯邦學習與機器學習，應用於工業泵浦的早期異常偵測。",
+          "自2027年4月起，我將重返硬體領域，在半導體產業 ESMC / TSMC（Fab 24）擔任 CMP 設備工程師。",
         ],
       },
       experience: {
@@ -235,9 +232,8 @@ const SITE = {
             "氏の指導のもと、AIの安全性に関する研究を行っています。",
           ],
           "以前は連合学習や、産業用ポンプの早期異常検知のための機械学習に" +
-          "取り組んでいました。近年は、安全性ベンチマークのために、" +
-          "有害テキストの機械翻訳における軟化の軽減に取り組んでいます。",
-          "2027年4月より、ESMC / TSMC Fab 24 にCMP設備エンジニアとして入社予定です。",
+          "取り組んでいました。",
+          "2027年4月より、半導体業界の ESMC / TSMC（Fab 24）にCMP設備エンジニアとして、ハードウェア分野に復帰予定です。",
         ],
       },
       experience: {
