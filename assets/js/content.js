@@ -95,13 +95,13 @@ const SITE = {
           "early anomaly detection in industrial pumps. Recently, I am working on " +
           "the mitigation of softening in machine translation of harmful text for " +
           "safety benchmarks.",
-          "From April 2027, I will join TSMC Fab 24 as a CMP Equipment Engineer.",
+          "From April 2027, I will join ESMC / TSMC Fab 24 as a CMP Equipment Engineer.",
         ],
       },
       experience: {
         heading: "Experience",
         items: [
-          { period: "Apr 2027 –", org: "TSMC — Fab 24", role: "CMP Equipment Engineer" },
+          { period: "Apr 2027 –", org: "ESMC / TSMC — Fab 24", role: "CMP Equipment Engineer", place: "Taichung, Taiwan / Dresden, Germany" },
           { period: "2026 – Dec 2026", org: "SB Intuitions — SoftBank", role: "Research Intern, Responsible AI Team" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "Cooperative Study — Electrical Engineering" },
           { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "Mathematics Teaching Assistant" },
@@ -144,13 +144,13 @@ const SITE = {
           "frühzeitigen Anomalieerkennung in Industriepumpen. Aktuell arbeite ich an " +
           "der Verringerung des Abschwächens bei der maschinellen Übersetzung " +
           "schädlicher Texte für Sicherheits-Benchmarks.",
-          "Ab April 2027 werde ich als CMP-Anlageningenieur bei TSMC Fab 24 arbeiten.",
+          "Ab April 2027 werde ich als CMP-Anlageningenieur bei ESMC / TSMC Fab 24 arbeiten.",
         ],
       },
       experience: {
         heading: "Werdegang",
         items: [
-          { period: "Apr 2027 –", org: "TSMC — Fab 24", role: "CMP-Anlageningenieur" },
+          { period: "Apr 2027 –", org: "ESMC / TSMC — Fab 24", role: "CMP-Anlageningenieur", place: "Taichung, Taiwan / Dresden, Deutschland" },
           { period: "2026 – Dez 2026", org: "SB Intuitions — SoftBank", role: "Forschungspraktikant, Responsible-AI-Team" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "Duales Studium — Elektrotechnik" },
           { period: "2021 – 2022", org: "Hochschule Trier", role: "Mathematik-Tutor" },
@@ -190,13 +190,13 @@ const SITE = {
           ],
           "先前我從事聯邦學習與機器學習，應用於工業泵浦的早期異常偵測；" +
           "近期則致力於減緩機器翻譯中有害文本的軟化，以用於安全基準。",
-          "自2027年4月起，我將加入 TSMC Fab 24，擔任 CMP 設備工程師。",
+          "自2027年4月起，我將加入 ESMC / TSMC Fab 24，擔任 CMP 設備工程師。",
         ],
       },
       experience: {
         heading: "工作經歷",
         items: [
-          { period: "2027年4月 –", org: "TSMC — Fab 24", role: "CMP 設備工程師" },
+          { period: "2027年4月 –", org: "ESMC / TSMC — Fab 24", role: "CMP 設備工程師", place: "台中，台灣 / 德勒斯登，德國" },
           { period: "2026 – 2026年12月", org: "SB Intuitions — SoftBank", role: "研究實習生，Responsible AI 團隊" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "建教合作 — 電機工程" },
           { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "數學助教" },
@@ -237,13 +237,13 @@ const SITE = {
           "以前は連合学習や、産業用ポンプの早期異常検知のための機械学習に" +
           "取り組んでいました。近年は、安全性ベンチマークのために、" +
           "有害テキストの機械翻訳における軟化の軽減に取り組んでいます。",
-          "2027年4月より、TSMC Fab 24 にCMP設備エンジニアとして入社予定です。",
+          "2027年4月より、ESMC / TSMC Fab 24 にCMP設備エンジニアとして入社予定です。",
         ],
       },
       experience: {
         heading: "職務経歴",
         items: [
-          { period: "2027年4月 –", org: "TSMC — Fab 24", role: "CMP設備エンジニア" },
+          { period: "2027年4月 –", org: "ESMC / TSMC — Fab 24", role: "CMP設備エンジニア", place: "台中（台湾）/ ドレスデン（ドイツ）" },
           { period: "2026 – 2026年12月", org: "SB Intuitions — SoftBank", role: "研究インターン、Responsible AI チーム" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "デュアルスタディ（電気工学）" },
           { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "数学ティーチングアシスタント" },
