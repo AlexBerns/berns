@@ -93,14 +93,14 @@ const SITE = {
           ],
           "Previously, I worked on Federated Learning and Machine Learning for " +
           "early anomaly detection in industrial pumps.",
-          "From April 2027, I will be going back into hardware as a CMP Equipment " +
-          "Engineer in the semiconductor industry at ESMC / TSMC (Fab 24).",
+          "From April 2027, I am diving back into hardware and will become a CMP " +
+          "Equipment Engineer in the semiconductor industry at TSMC in Germany.",
         ],
       },
       experience: {
         heading: "Experience",
         items: [
-          { period: "Apr 2027 –", org: "ESMC / TSMC — Fab 24", role: "CMP Equipment Engineer", place: "Taichung, Taiwan / Dresden, Germany" },
+          { period: "Apr 2027 –", org: "TSMC", role: "CMP Equipment Engineer", place: "Dresden, Germany" },
           { period: "2026 – Dec 2026", org: "SB Intuitions — SoftBank", role: "Research Intern, Responsible AI Team" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "Cooperative Study — Electrical Engineering" },
           { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "Mathematics Teaching Assistant" },
@@ -141,14 +141,14 @@ const SITE = {
           ],
           "Zuvor arbeitete ich an föderiertem Lernen und maschinellem Lernen zur " +
           "frühzeitigen Anomalieerkennung in Industriepumpen.",
-          "Ab April 2027 kehre ich als CMP-Anlageningenieur in der Halbleiterindustrie " +
-          "bei ESMC / TSMC (Fab 24) in die Hardware zurück.",
+          "Ab April 2027 kehre ich in die Hardware zurück und werde " +
+          "CMP-Anlageningenieur in der Halbleiterindustrie bei TSMC in Deutschland.",
         ],
       },
       experience: {
         heading: "Werdegang",
         items: [
-          { period: "Apr 2027 –", org: "ESMC / TSMC — Fab 24", role: "CMP-Anlageningenieur", place: "Taichung, Taiwan / Dresden, Deutschland" },
+          { period: "Apr 2027 –", org: "TSMC", role: "CMP-Anlageningenieur", place: "Dresden, Deutschland" },
           { period: "2026 – Dez 2026", org: "SB Intuitions — SoftBank", role: "Forschungspraktikant, Responsible-AI-Team" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "Duales Studium — Elektrotechnik" },
           { period: "2021 – 2022", org: "Hochschule Trier", role: "Mathematik-Tutor" },
@@ -187,13 +187,13 @@ const SITE = {
             "。",
           ],
           "先前我從事聯邦學習與機器學習，應用於工業泵浦的早期異常偵測。",
-          "自2027年4月起，我將重返硬體領域，在半導體產業 ESMC / TSMC（Fab 24）擔任 CMP 設備工程師。",
+          "自2027年4月起，我將重返硬體領域，於德國 TSMC 擔任半導體產業 CMP 設備工程師。",
         ],
       },
       experience: {
         heading: "工作經歷",
         items: [
-          { period: "2027年4月 –", org: "ESMC / TSMC — Fab 24", role: "CMP 設備工程師", place: "台中，台灣 / 德勒斯登，德國" },
+          { period: "2027年4月 –", org: "TSMC", role: "CMP 設備工程師", place: "德勒斯登，德國" },
           { period: "2026 – 2026年12月", org: "SB Intuitions — SoftBank", role: "研究實習生，Responsible AI 團隊" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "建教合作 — 電機工程" },
           { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "數學助教" },
@@ -233,13 +233,13 @@ const SITE = {
           ],
           "以前は連合学習や、産業用ポンプの早期異常検知のための機械学習に" +
           "取り組んでいました。",
-          "2027年4月より、半導体業界の ESMC / TSMC（Fab 24）にCMP設備エンジニアとして、ハードウェア分野に復帰予定です。",
+          "2027年4月よりハードウェア分野に復帰し、ドイツのTSMCで半導体業界のCMP設備エンジニアになります。",
         ],
       },
       experience: {
         heading: "職務経歴",
         items: [
-          { period: "2027年4月 –", org: "ESMC / TSMC — Fab 24", role: "CMP設備エンジニア", place: "台中（台湾）/ ドレスデン（ドイツ）" },
+          { period: "2027年4月 –", org: "TSMC", role: "CMP設備エンジニア", place: "ドレスデン（ドイツ）" },
           { period: "2026 – 2026年12月", org: "SB Intuitions — SoftBank", role: "研究インターン、Responsible AI チーム" },
           { period: "2019 – 2024", org: "Feluwa Pumpen GmbH", role: "デュアルスタディ（電気工学）" },
           { period: "2021 – 2022", org: "Trier University of Applied Sciences", role: "数学ティーチングアシスタント" },
